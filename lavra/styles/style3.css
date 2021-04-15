@@ -1,0 +1,50 @@
+li {
+  max-height: 8vh;
+  /* max-width: 20vw;
+    margin-left: 30vw; */
+  padding: 0;
+}
+
+#pre {
+  margin-top: 1%;
+}
+
+#loader {
+  border: 1vw solid #f3f3f3;
+  /* Light grey */
+  border-top: 1vw solid #3498db;
+  /* Blue */
+  visibility: hidden;
+  border-radius: 50%;
+  width: 6vw;
+  height: 6vw;
+  /* text-align: center; */
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  /* margin-left: 26vw; */
+  animation: spin 2s linear infinite;
+}
+
+#done {
+  display: none;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#load-cont {
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

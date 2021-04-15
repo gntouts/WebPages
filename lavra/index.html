@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Αυτογιωργανομένο Πανηγύρι Αγ. Λαύρας 2019</title>
+  <!-- <link rel="stylesheet" href="css/style1.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/ico/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    * {
+      font-family: 'Vollkorn', serif;
+
+    }
+
+    html {
+      background: linear-gradient(to right,
+          #2f3640 8%, #dcdde1 8% 92%, #2f3640 92%);
+      cursor: url('assets/img/amstel.png'), auto;
+
+      /* cursor: none; */
+    }
+
+    .map-responsive {
+      overflow: hidden;
+      padding-bottom: 100%;
+      position: relative;
+      height: 0;
+    }
+
+    .map-responsive iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      margin-left: 0;
+      position: absolute;
+    }
+
+    .grow {
+      transition: all .2s ease-in-out;
+    }
+
+    .grow:hover {
+      transform: scale(1.03);
+      opacity: 0.9;
+    }
+
+    .grow2 {
+      transition: all .2s ease-in-out;
+    }
+
+    .grow2:hover {
+      transform: scale(1.2);
+      opacity: 0.7;
+    }
+
+    .text-grow {
+      transition: all .2s ease-in-out;
+    }
+
+    .text-grow:hover {
+      font-size: 22px;
+      opacity: 0.8;
+
+    }
+
+    .font-weight-bolder span {
+      transition: all .2s ease-in-out;
+    }
+
+    .font-weight-bolder span:hover {
+      font-size: 19px;
+      opacity: 0.8;
+    }
+
+    body {
+      overflow-x: hidden;
+      padding: 0;
+      margin: auto;
+      background: linear-gradient(to right,
+          #2f3640 8%, #dcdde1 8% 92%, #2f3640 92%);
+    }
+
+    ::selection {
+      color: rgb(192, 226, 0);
+      background: rgb(122, 0, 0);
+    }
+
+    hr {
+      border: none;
+      /* margin: 1rem 0; */
+      height: 30px;
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/leaf.svg);
+    }
+
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: white;
+      color: black;
+      ;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 4px;
+    }
+
+    #myBtn:hover {
+      opacity: 0.8;
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top<br>
+    <img class="grow2" src="assets/img/sublaki.png" alt="Sublaki" style="max-width: 4vw;">
+  </button>
+  <div class="bg">
+    <hr>
+    <div class="container-fluid text-center">
+      <p style="padding-top: 6vh; padding-bottom: 6vh;" class="h1 text-uppercase font-weight-bold text-center grow">
+        ΦΕΤΟΣ Η ΑΓΙΑ ΛΑΥΡΑ ΓΙΟΡΤΑΖΕΙ 28 ΙΟΥΝΙΟΥ!</p>
+
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <img class="grow" src="assets/img/afisa-low-res-min.jpg" id="img" alt="Panigiri" style="width: 100%; border: 8px double black;
+                                background-color: beige;">
+              <div class="dl-box"
+                style=" border: 6px double black; background-color: rgba(0,0,0,0.1); margin-top: 2vh; padding-top:1vh; padding-bottom: 1vh;">
+                <p class="h5">Κατεβάστε την αφίσα σε υψηλή ανάλυση:</p>
+                <a href="assets/pdf/afisa-a3.pdf" download style="margin-right: 3vw;">
+                  .PDF
+                </a>
+                <a href="assets/pdf/afisa-hi-res-min.png" download style="margin-left: 3vw;">
+                  .PNG
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <p class="font-weight-bolder" style="font-size: 18px; color:#323639;">
+                <span style="font-weight: 900;">Συνδημότες,<br>
+                  όπως και κάθε χρόνο, έτσι και φέτος, η γνωστή σύνθεση (σχεδόν μόνο) Γιώργηδων, φέρνει
+                  κοντά σας αυτό που δεν θέλει να φέρει
+                  η νεομπολσεβίκικη δημοτική αρχή-ενα πανηγύρι στα δικά σας μέτρα, για την κινητή εορτή
+                  της Αγίας Λαύρας (Μεγάλη η χάρη της)</span>
+                <br><br>
+                <span style="font-weight: 500;">
+                  Ελάτε να γιορτάσουμε το τέλος της εξεταστικής με μπύρες και κρέατα απο το
+                  μεσημέρι,και ασταμάτητη πανηγυρτζίδικη μουσική
+                  απο τις χρυσές playlist μας που άφησαν εποχή, αλλα και απο τους έμπειρους μουσικούς
+                  μας, που έχουνε κάνει tour και tour σε
+                  όλα τα χωριά της Ελληνικής επαρχίας.</span>
+                <br><br><span style="font-size: 19px;"><em><strong>
+                      Απαραίτητα εφόδια αλκοόλ και κρέας. Θα υπάρχει κουβάς με πάγο για τις μπύρες
+                      σας και
+                      κάρβουνα για το κρέας σας.</em><strong></span>
+                <!-- <br><br><span style="font-weight: 500;">
+                                    Μόλις ο ήλιος φτάσει στη δύση του, live μουσική από τους Γιώργηδες που όλοι
+                                    αγαπήσαμε.
+                                    Επίσης, οποιοσδήποτε άλλος
+                                    μπουζουκιστης ή εν γενει μουσικος ενδιαφέρεται, είναι παραπάνω από ευπρόσδεκτος με
+                                    το
+                                    οργανάκι του!</span> -->
+              </p>
+            </div>
+          </div>
+          <div class="row grow" style="margin-top: 5vh; border-top: 3px solid black">
+
+          </div>
+        </div>
+        <div class="col-1"></div>
+
+      </div>
+    </div>
+    <div class="container text-center" style="margin-top: 8vh;">
+      <p style="padding-top: 0; padding-bottom: 4vh;" class="h2 font-weight-bold text-center grow">
+        Οδηγίες χρήσης</p>
+      <div class="row">
+
+        <div class="col-md-5 col-sm-12 col-xs-12">
+          <div class="map-responsive">
+            <iframe
+              src="https://maps.google.com/maps?q=Πλ.+Αγίας+Λαύρας+Πάτρα+262+23&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no"></iframe>
+          </div>
+        </div>
+        <div class="col-md-1 col-sm-12 col-xs-12 text-center"></div>
+        <div class="col-md-5 col-sm-12 col-xs-12 text-center" style="width: 100%;">
+          <p style="margin-top: 5vh; max-width: 92%; margin: 4%; font-size: 18px; font-weight: 500;">
+            <span class="text-grow">
+              Πότε: </span><br><span style="font-size: 20px; font-weight: 600;"> 28 Ιουνίου</span><br><br>
+            <span class="text-grow">
+              Τι ώρα: </span><br><span style="font-size: 20px; font-weight: 600;"> 15:30</span>
+            <br><br>
+            <span class="text-grow">
+              Που: </span><br><span style="font-size: 20px; font-weight: 600;" class="text-grow">Έχει χάρτη ακριβώς
+              δίπλα ρε μινάρα. </span>
+            </span><br><br><br>
+            <span class="text-grow">
+              Λοιπές πληροφορίες: </span><br><span class="text-grow" style="font-size: 20px; font-weight: 600;">Φέρτε
+              μπύρες, ποτά, κρέατα, πάγκους, τραπέζια, γύψινα πιάτα για σπάσιμο.
+              Γενικά, το μόνο πράγμα που θα υπάρχει σε αφθονία είναι Γιώργηδες.</span>
+            </span>
+            <p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container">
+        <div class="row grow" style="margin-top: 5vh; border-top: 3px solid black">
+
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <br>
+      <p class="h3" style="max-width: 90%; margin: 5%;">Βρες το event στο facebook</p><br>
+      <a href="https://www.facebook.com/events/503155740225288/" target="_blank" class="grow">
+        <img class="grow2" src="https://image.flaticon.com/icons/svg/1051/1051360.svg" alt="Facebook Event"
+          style="max-width: 15%; margin-bottom:4vh;">
+      </a>
+    </div>
+    <hr>
+    <div class="container">
+      <p class="text-center" style="font-size: 14px;">Made by Giorgides Squad</p>
+    </div>
+
+  </div>
+
+  <script async>
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+  <script type="text/javascript" src="https://www.wikplayer.com/code.js"
+    data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':true,'repeat':2,'showcomment':false,'marqueetexton':true,'placement':'top','showplaylist':false,'playlist':[{'title':'%CE%9A%CE%B1%CE%B9%CE%B3%CE%BF%CE%BC%CE%B1%CE%B9%20%CE%BA%CE%B1%CE%B9%20%CF%83%CE%B9%CE%B3%CE%BF%CE%BB%CE%B9%CF%89%CE%BD%CF%89','url':'https%3A%2F%2Fpanigiris.netlify.com%2Fassets%2Fmp3%2Fmedia.mp3'}]}"
+    async>
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" async>
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" async>
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" async>
+  </script>
+</body>
+</body>
+
+</html>
