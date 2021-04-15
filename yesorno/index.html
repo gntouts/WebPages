@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Yes or No?</title>
+
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <div class="mybar">
+            <span>
+                <p style="padding-bottom: 0.4%; font-weight: 700;" class="h1 noselect">Ναι ή Όχι;</p>
+            </span>
+            <span>
+                <p class="h4 noselect">Άσε μερικά <a href="https://qrng.anu.edu.au/" style="opacity: 0.75;"
+                        target="_blank">τυχαία φωτόνια</a>
+                    να αποφασίσουν</p><br>
+            </span>
+            <span id="mybtn">
+                <p class='btn btn-outline-light btn-lg' id="btn" onclick="clickThis()">Πάμε</p>
+            </span>
+        </div>
+
+        <div class="row">
+            <div class="toggle-content is-visible" id="yes-col">
+                <p class="options noselect">Ναι</p>
+            </div>
+            <div class="spacer">
+            </div>
+            <div class="toggle-content is-visible" id="no-col">
+                <p class="options noselect">Όχι</p>
+            </div>
+        </div>
+        <div class="row" id="foot">
+            <a class="noselect" style="opacity: 0.55; font-size: 90%; font-weight: 600; padding-top: 0.4%;"
+                href="https://github.com/gntouts" target="_blank">Περισσότερα</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
